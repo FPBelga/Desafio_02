@@ -1,0 +1,28 @@
+Desafio - 02
+Vence em domingo, 20 mar 2022, 23:59
+Usando todos os recursos aprendidos nas unidades anteriores, crie uma estrutura onde tenha as seguintes classes, Produto, Cliente, Vendedor, Venda
+
+Observações:
+
+Todo cliente tem nome, cpf, telefone e email.
+
+Todo produto tem nome, quantidade, valorUnitario, valorDesconto, valorAcrescimo, valorTotal.
+
+O valorTotal do produto deve ser calculado dinamicamente conforme as outras propriedades, 
+formula: (valorUnitario * quantidade) + valorAcrescimo - valorDesconto
+
+O vendedor também pode ser um cliente, ele tem as mesmas propriedades.
+
+O vendedor tem uma nova propriedade chamada percentualComissão, deve ser porcentagem, exemplo 5%.
+
+Toda venda só pode ser construída com um cliente e um vendedor.
+
+Deve ser possível adicionar produtos a venda dinamicamente.
+
+O Valor total da venda é basado nos produtos adicionados na venda.
+
+Deve ser possível obter o valorTotal da venda.
+
+Deve ser possível dar um desconto de no máximo 10% na venda. Esse desconto não se aplica aos produtos, somente ao valor total da venda.
+
+Obs: Entregar o projeto versionado no Github.
