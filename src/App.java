@@ -45,13 +45,13 @@ public class App {
         produto3.setdesconto(20.00);
 
         Venda venda1 = new Venda(cliente1, vendedor1);
-        venda1.includeItem(produto1);
-        venda1.includeItem(produto2);
-        venda1.includeItem(produto3);
+        venda1.AddItem(produto2);
+        venda1.AddItem(produto3);
+        venda1.AddItem(produto1);
 
         venda1.applyDescount(20.0);
 
-        venda1.printCoupon();
+        venda1.ImprimeCupom();
     }
 
 }

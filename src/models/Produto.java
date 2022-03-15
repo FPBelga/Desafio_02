@@ -57,13 +57,13 @@ public class Produto {
         this.valorTotal = valorTotal;
     }
 
-    public Double getTotalAmount() {
+    public Double getProdutoValorTotal() {
 
         try {
             this.valorTotal = (valorUnitario * quantidade) + acrescimo - desconto;
 
         } catch (Exception e) {
-            System.out.println("Error description " + e.getMessage());
+            System.out.println(" Descrição do erro " + e.getMessage());
         }
 
         return valorTotal;
